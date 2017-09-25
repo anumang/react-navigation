@@ -5,6 +5,12 @@
 
 Browse the docs on [reactnavigation.org](https://reactnavigation.org/) or try it out on [our expo demo](https://exp.host/@react-navigation/NavigationPlayground).
 
+
+## Windows Bugs
+
+1. DrawerNavigatorItems focused item icon alignment problem
+  Opacity value is exist for not focused items, and not exist for focused items, This causing alignment problem on focused item icon position.
+
 ## Motivation
 
 React Navigation is born from the React Native community's need for an
